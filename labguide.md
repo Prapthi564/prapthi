@@ -101,6 +101,7 @@ Select the **region** you want to deploy.
 
 ![](./images/Screenshot_23.png)
 <br>
+<br>
 
 After performing the above action you will be directed to the  **CloudWatch Console Page.**
 
@@ -165,9 +166,6 @@ Select ***UTC timezone*** this refers to the standardized time zone used across 
 
 ***Statistic***  to apply statistics to the data like AVG,Max,Min,Sum.
 
-- The widgets shows shows Currently total 1.33% of CPU utilized by EC2 resources.
-- 7.99kb NetworkIn refers to 7.99 kilobytes of data were received by the resource at that time.
-- 6.33 KB Network Out means that 6.33 kilobytes of data were sent out from the resource at that time.
 
 Here metrics will get updated for each ***5***min time period as mentioned in the period.
 Here it will show data for last ***3*** hours.
@@ -286,6 +284,7 @@ Composite alarms can send ***Amazon SNS notifications*** when they change state,
 
 ![](./images/Screenshot_5.png)
 <br>
+<br>
 
 3. Click on ***Select metric***
 
@@ -332,6 +331,7 @@ The ***arrow mark*** shows the CPU utilization at that particular time.
 ***Statistic*** keep it as ***Average***
 ***Period 1min*** refers to If suppose CPU utilization reamains on a threshold or above threshold value for 1min then alram should get triggred.
 <br>
+<br>
 
 10. Select the ***Threshold type*** as ***static***
 - Select CPUUtilization ***Greater/Equal>= threshold***
@@ -346,6 +346,7 @@ Once We set the **Threshold** we can see the **Red horizontal line** in the metr
 ![](./images/Screenshot_32.png)
 
 ***Once the Blue line meets or crosses the Red line alarm triggers***.
+<br>
 <br>
 
 11. Configure actions
@@ -370,11 +371,13 @@ After the Subscription Confirmed, Do not need to modify anything in Lambda, Auto
 
 ![](./images/Screenshot_36.png)
 <br>
+<br>
 
 12. Enter the Alarm name -> Click on ***Next***
 <br>
 
 ![](./images/Screenshot_37.png)
+<br>
 <br>
 
 13.**Preview and create** shows the final overview of Alarm creation and then Click on ***Create alarm***
@@ -382,6 +385,7 @@ After the Subscription Confirmed, Do not need to modify anything in Lambda, Auto
 
 ![](./images/Screenshot_38.png)
 ![](./images/Screenshot_39.png)
+<br>
 <br>
 
 14.Click on **View alarm** In the CloudWatch Navigation panel **In alarm** ->Click on the ***ec2-alarm** that is your created alarm.
@@ -393,33 +397,42 @@ Here you can see the created alarm graph along with the description.
 ![](./images/Screenshot_41.png)
 
 <br>
+<br>
 
 #### When the Blue **CPUUtilization line** meets or cross the Red **Threhold line** alarm triggers and you will recieve a SNS to your mail.
 <br>
 
 This is how you will get a mail.
 <br>
+<br>
 
 ![](./images/Screenshot_44.png)
 <br>
+<br>
+
 In **In alarm** when the alarm triggers you will get notification like shown below.
 <br>
 
 ![](./images/Screenshot_42.png)
 
 <br>
+<br>
 
 Click on alarm name **ec2-alarm** there you can see CPUUtilization has crossed the Threshold and hence alarm triggered.
 <br>
 
 ![](./images/Screenshot_43.png)
-<br>
 
+<br>
+<br
+>
 You can also add alarm to dashboard from here.
 Goto **Action** ->Select **Add to dashboard**
 <br>
 
 ![](./images/Screenshot_48.png)
+
+<br>
 <br>
 
 **Select a dashboard** or create a new one by clicking on **Create new**-> Select the **Widget type** -> alarm name it will only take no need to give again -> Click on **Add to dashboard**
@@ -433,17 +446,22 @@ Click on **View dashboard**
 
 ![](./images/Screenshot_46.png)
 <br>
+<br>
 
 Now you can see the alarm in dashboard and also you can save it by Clicking on **Save dashboard**
 <br>
 
 ![](./images/Screenshot_47.png)
 <br>
+<br>
 
 Now you can see the Saved dashboard **ec2-dashboard** in the Dashboard.
 <br>
+<br>
+
 ![](./images/Screenshot_49.png)
 
+<br>
 <br>
 
 ## Task 8: Events
