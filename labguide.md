@@ -242,9 +242,12 @@ A metric alarm has the following possible states:
 ### Now lets Create an Alarm for CPUUtilization of EC2 instance.
 1. In the CloudWatch Console, click on ***In alarm*** in the Navigation panel.
 2. Click on ***Create alarm***
+
 ![](./images/Screenshot_5.png)
 <br>
+
 3. Click on ***Select metric***
+
 ![](./images/Screenshot_24.png)
 <br>
 
@@ -253,15 +256,14 @@ A metric alarm has the following possible states:
 <br>
 
 5. Click on ***Per-Instance Metrics***
-
 ![](./images/Screenshot_26.png)
 <br>
 
-7. Go back to **EC2 Console**, Copy the EC2 **instance Id** of the EC2 instance created in the  start 
+6. Go back to **EC2 Console**, Copy the EC2 **instance Id** of the EC2 instance created in the  start 
 ![](./images/Screenshot_28.png)
 <br>
 
-8. Paste the instance Id over the Search box in the metrics shown below.
+7. Paste the instance Id over the Search box in the metrics shown below.
 
 ![](./images/Screenshot_27.png)
 <br>
