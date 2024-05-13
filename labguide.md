@@ -17,6 +17,7 @@ Amazon CloudWatch monitors your Amazon Web Services (AWS) resources and the appl
 ### CloudTrail
 AWS CloudTrail is service used along with  Amazon CloudWatch. It **Tracks User Activity and API Usage**. Actions taken by a user, role, or an AWS service are recorded as events in CloudTrail. Events include actions taken in the AWS Management Console, AWS Command Line Interface, and AWS SDKs and APIs.
 <br>
+<br>
 
 ### Go to the **AWS Management Console** to Sign in.
 ### Lets start
@@ -26,9 +27,11 @@ Follow the steps one by one to get hands on experience with with Cloudwatch and 
 Open the browser and Search for **AWS Management Console**.
 Click on **Sign in to the Console**
 <br>
-![](./Screenshot_106.png)
-<br>
 
+![](./Screenshot_106.png)
+
+<br>
+<br>
 
 1. Sign in to the console by specifying **Account ID,Username and Password**.
 ![](./images/Screenshot_15.png)
@@ -45,28 +48,35 @@ Select the **region** you want to deploy.
 
 #### Using the CloudWatch We can monitor all the services and applications in the AWS. Now let us consider **EC2 instance** and Check how CloudWatch Work.
 <br>
+
 #### Task 2:  First Create an EC2 instance 
 1. Search for **EC2** instance in Search 
 <br>
+<br>
 
 ![](./images/Screenshot_17.png)
+<br>
 <br>
 
 2. Enter the Name of the instance.
 
 ![](./images/Screenshot_18.png)
 <br>
+<br>
 
 3. Select the **AMI**
 ![](./images/Screenshot_19.png)
+<br>
 <br>
 
 4. Select the **Instance type**
 ![](./images/Screenshot_20.png)
 <br>
+<br>
 
 5.Select the Key pair and Click on ***Lunch instance***
 ![](./images/Screenshot_21.png)
+<br>
 <br>
 
 6.You can see the Created instance in the **Running state.**
