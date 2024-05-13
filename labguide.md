@@ -73,19 +73,25 @@ Select the **region** you want to deploy.
 
 4. Select the **Instance type**
 <br>
+
 ![](./images/Screenshot_20.png)
+
 <br>
 <br>
 
 5.Select the Key pair and Click on ***Lunch instance***
 <br>
+
 ![](./images/Screenshot_21.png)
+
 <br>
 <br>
 
 6.You can see the Created instance in the **Running state.**
 <br>
+
 ![](./images/Screenshot_22.png)
+
 <br>
 <br>
 
