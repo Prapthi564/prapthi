@@ -251,14 +251,17 @@ A metric alarm has the following possible states:
 4. Select ***EC2***
 ![](./images/Screenshot_25.png)
 <br>
+
 5. Click on ***Per-Instance Metrics***
+
 ![](./images/Screenshot_26.png)
 <br>
 
-6. Go back to **EC2 Console**, Copy the EC2 **instance Id** of the EC2 instance created in the  start 
+7. Go back to **EC2 Console**, Copy the EC2 **instance Id** of the EC2 instance created in the  start 
 ![](./images/Screenshot_28.png)
 <br>
-7. Paste the instance Id over the Search box in the metrics shown below.
+
+8. Paste the instance Id over the Search box in the metrics shown below.
 
 ![](./images/Screenshot_27.png)
 <br>
