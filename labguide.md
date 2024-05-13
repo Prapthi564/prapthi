@@ -66,7 +66,9 @@ Select the **region** you want to deploy.
 
 3. Select the **AMI**
 <br>
+
 ![](./images/Screenshot_19.png)
+
 <br>
 <br>
 
