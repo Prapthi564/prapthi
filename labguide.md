@@ -576,6 +576,8 @@ Click on **Events-> Rules->Create Rule**
 
 ![](./Screenshot_86.png)
 <br>
+<br>
+
 14.Enter Rule detail
 - Rule ame as **rule**
 - Select Rule type as **Schedule**  
@@ -597,12 +599,16 @@ Click on **Events-> Rules->Create Rule**
 - For function select **Reboot**
 - Click on **Next**
 <br>
+
 ![](./Screenshot_90.png)
+
 <br>
 
 16. Click on **Next**
 <br>
+
 ![](./Screenshot_91.png)
+
 <br>
 
 17. Click on **Create Rule**
@@ -613,7 +619,9 @@ Click on **Events-> Rules->Create Rule**
 18. Go back to lambda function ->Click on **Monitor** 
 You can see the **CloudWatch Metrics**. Data will be populated as time passes.
 <br>
+
 ![](./Screenshot_94.png)
+
 <br>
 
 ![](./Screenshot_96.png)
@@ -625,6 +633,7 @@ It will take you to the **CloudWatch Log groups**. You can see some logs. Click 
 
 ![](./Screenshot_97.png)
 <br>
+
 Here you can see all the **Log events**
 ![](./Screenshot_98.png)
 <br>
