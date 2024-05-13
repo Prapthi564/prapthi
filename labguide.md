@@ -612,12 +612,15 @@ Click on **Events-> Rules->Create Rule**
 <br>
 
 17. Click on **Create Rule**
+<br>
+
 ![](./Screenshot_92.png)
 ![](./Screenshot_93.png)
 <br>
 
 18. Go back to lambda function ->Click on **Monitor** 
 You can see the **CloudWatch Metrics**. Data will be populated as time passes.
+<br>
 <br>
 
 ![](./Screenshot_94.png)
@@ -630,14 +633,18 @@ You can see the **CloudWatch Metrics**. Data will be populated as time passes.
 19. Click on **View CloudWatch logs**
 It will take you to the **CloudWatch Log groups**. You can see some logs. Click on **logs**
 <br>
+<br>
 
 ![](./Screenshot_97.png)
+<br>
 <br>
 
 Here you can see all the **Log events**
 ![](./Screenshot_98.png)
 <br>
 <br>
+<br>
+
 
 ## 5. CloudTrail
 AWS CloudTrail is an AWS service that helps you enable operational and risk auditing, governance, and compliance of your AWS account. Actions taken by a user, role, or an AWS service are recorded as events in CloudTrail. 
@@ -705,17 +712,20 @@ Insights events are logged to the destination of your trail.
 
 ![](./Screenshot8.png)
 <br>
+<br>
 
-1. Check **Read** and **Write**
+1. Check **Read** and **Write** box.
 Choose **S3** as the source of data events to log ->Select **Log All events**
 <br>
 
 ![](./Screenshot9.png)
 <br>
+
 2. Click on **Next**
 <br>
 
 ![](./Screenshot10.png)
+<br>
 <br>
 
 3. Click on **Create Trail**
@@ -736,6 +746,7 @@ Choose **S3** as the source of data events to log ->Select **Log All events**
 
 ![](./Screenshot14.png)
 <br>
+
 6.This the created **S3 destination bucket**. Click on the bucket.
 <br>
 
