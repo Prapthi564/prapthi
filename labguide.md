@@ -52,34 +52,39 @@ Select the **region** you want to deploy.
 #### Task 2:  First Create an EC2 instance 
 1. Search for **EC2** instance in Search 
 <br>
-<br>
 
 ![](./images/Screenshot_17.png)
 <br>
 <br>
 
 2. Enter the Name of the instance.
+<br>
 
 ![](./images/Screenshot_18.png)
 <br>
 <br>
 
 3. Select the **AMI**
+<br>
+
 ![](./images/Screenshot_19.png)
 <br>
 <br>
 
 4. Select the **Instance type**
+<br>
 ![](./images/Screenshot_20.png)
 <br>
 <br>
 
 5.Select the Key pair and Click on ***Lunch instance***
+<br>
 ![](./images/Screenshot_21.png)
 <br>
 <br>
 
 6.You can see the Created instance in the **Running state.**
+<br>
 ![](./images/Screenshot_22.png)
 <br>
 <br>
