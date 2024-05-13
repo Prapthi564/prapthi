@@ -66,7 +66,6 @@ Select the **region** you want to deploy.
 
 3. Select the **AMI**
 <br>
-
 ![](./images/Screenshot_19.png)
 <br>
 <br>
@@ -132,12 +131,14 @@ Click on  **All Metrics** to get into **Metrics Console page.**
 <br>
 
 2. Click on **Per-Instance Metrics**
+<br>
 
 ![](./Screenshot_103.png)
 
 <br>
 
 3. Enter any one among **dimension,metric,Instance ID,Resource Id** related to Service like here for EC2 instance WE can give Instance Id.
+<br>
 
 ![](./images/Screenshot_4.png)
 <br>
@@ -145,12 +146,14 @@ Click on  **All Metrics** to get into **Metrics Console page.**
 
 4. Select the Metric names that you want to monitor.
  Lets select CPUUtilization,NetworkIn and NetworkOut.
+<br>
 
 ![](./Screenshot_102.png)
 <br>
 <br>
 
 5. Click on ***Graphed metrics*** to set the Statistic and Period for metrics.
+<br>
 
 ![](./images/Screenshot_6.png)
 
