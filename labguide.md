@@ -44,19 +44,23 @@ Select the **region** you want to deploy.
 <br>
 
 #### Using the CloudWatch We can monitor all the services and applications in the AWS. Now let us consider **EC2 instance** and Check how CloudWatch Work.
-
+<br>
 #### Task 2:  First Create an EC2 instance 
 1. Search for **EC2** instance in Search 
 <br>
+
 ![](./images/Screenshot_17.png)
 <br>
+
 2. Enter the Name of the instance.
 
 ![](./images/Screenshot_18.png)
 <br>
+
 3. Select the **AMI**
 ![](./images/Screenshot_19.png)
 <br>
+
 4. Select the **Instance type**
 ![](./images/Screenshot_20.png)
 <br>
@@ -64,10 +68,12 @@ Select the **region** you want to deploy.
 5.Select the Key pair and Click on ***Lunch instance***
 ![](./images/Screenshot_21.png)
 <br>
+
 6.You can see the Created instance in the **Running state.**
 ![](./images/Screenshot_22.png)
 <br>
 <br>
+
 ### Task 3: Navigating through CloudWatch Console.
 
 1. In the Console Home Page Search for **CloudWatch** and Click on it.
@@ -79,6 +85,7 @@ After performing the above action you will be directed to the  **CloudWatch Cons
 ![](./images/Screenshot_3.png)
 <br>
 <br>
+
 ####  In the Navigation Panel there are different Features to Work with.
 - Create Alarm
 - Create Metrics
@@ -93,11 +100,13 @@ After performing the above action you will be directed to the  **CloudWatch Cons
 Metrics are data about the performance of your systems. By default, many services provide free metrics for resources (such as Amazon EC2 instances, Amazon EBS volumes, and Amazon RDS DB instances). Amazon CloudWatch can load all the metrics in your account for search, graphing, and alarms.
 Example, For EC2 instance CPU Utilization,Memory Utilization,Disk Space Utilization,Network In,Network Out are some of the metrics.
 <br>
+
 Click on  **All Metrics** to get into **Metrics Console page.**
 1. Click on **Browse**->Select **EC2**
 
 ![](./images/Screenshot_7.png)
 <br>
+
 2. Click on **Per-Instance Metrics**
 
 ![](./Screenshot_103.png)
@@ -149,6 +158,7 @@ Click on ***Action*** ->***Add to dashboard***
 
 ![](./Screenshot_104.png)
 <br>
+
 Dashboard Configuration.
 - Click on ***create***
 - Click on **"Create new"**
@@ -159,6 +169,7 @@ Dashboard Configuration.
 
 ![](./images/Screenshot_8.png)
 <br>
+
 Here you can see the Metrics in dashborad.
 
 ![](./images/Screenshot_9.png)
@@ -175,6 +186,7 @@ Follow the Steps for ***Custom Dashboard***
 
 ![](./images/Screenshot_52.png)
 <br>
+
 1. Enter the name **dashboard**
 ![](./images/Screenshot_53.png)
 <br>
@@ -187,12 +199,12 @@ Follow the Steps for ***Custom Dashboard***
 
 ![](./images/Screenshot_12.png)
 <br>
+
 3. After Creating We can see it over Dashboard.
 Click on **ec2-dashboard**
 
 ![](./images/Screenshot_13.png)
 <br>
-
 
 You can see the **metrics** here.
 ![](./Screenshot_105.png)
@@ -213,7 +225,6 @@ An automatic dashboard typically refers to a pre-built or templated dashboard pr
 
 <br>
 <br>
-
 
 ## Task 7: Alarms
 Cloudwatch alarm is used to monitor a single cloud watch metric or the result of Match expression using cloud watch metrics. Also, it sends out a notification based on the threshold we set for each service in the cloud watch alarm.
@@ -316,10 +327,12 @@ After the Subscription Confirmed, Do not need to modify anything in Lambda, Auto
 
 ![](./images/Screenshot_36.png)
 <br>
+
 12. Enter the Alarm name -> Click on ***Next***
 
 ![](./images/Screenshot_37.png)
 <br>
+
 13.**Preview and create** shows the final overview of Alarm creation and then Click on ***Create alarm***
 
 ![](./images/Screenshot_38.png)
@@ -356,6 +369,7 @@ Goto **Action** ->Select **Add to dashboard**
 **Select a dashboard** or create a new one by clicking on **Create new**-> Select the **Widget type** -> alarm name it will only take no need to give again -> Click on **Add to dashboard**
 ![](./images/Screenshot_45.png)
 <br>
+
 Click on **View dashboard**
 ![](./images/Screenshot_46.png)
 <br>
@@ -394,6 +408,7 @@ So to achieve this We need an ***EC2 instance, Lambda function and an CloudWatch
 - Select the **Runtime ** as **Python 3.12**
 - Select the Architecture **x86_64**
 - For Execution role select **Create a new role with basic Lambda permission**
+
 ![](./images/Screenshot_73.png)
 ![](./Screenshot_74.png)
 <br>
@@ -408,6 +423,7 @@ So to achieve this We need an ***EC2 instance, Lambda function and an CloudWatch
 
 ![](./images/Screenshot_75.png)
 <br>
+
 6. Replace the ***your_instance_id_here*** with your Instance id.
 
 ![](./images/Screenshot_78.png)
@@ -424,6 +440,7 @@ Attach **EC2FullAccess** permission to lambda function.
 
 ![](./Screenshot_81.png)
 <br>
+
 9. Search for ***EC2FullAccess** ->Add permission.
 
 ![](./Screenshot_80.png)
@@ -514,6 +531,7 @@ AWS CloudTrail is an AWS service that helps you enable operational and risk audi
 
 ![](./Screenshot1.png)
 <br>
+
 ### Lets create a **Trail.**
 <br>
 
@@ -529,18 +547,22 @@ AWS CloudTrail is an AWS service that helps you enable operational and risk audi
 
 ![](./Screenshot3.png)
 <br>
+
 3. Enter the **Keyname** as **Demokey** and select the check boxes as shown below.
 
 ![](./Screenshot4.png)
 <br>
+
 4. If you select **New** log group then the name will be take by default and select the checkboxes as shown below.
 
 ![](./Screenshot5.png)
 <br>
+
 5. Click on **Next**
 
 ![](./Screenshot6.png)
 <br>
+
 #### 2. Choose Log events
 ![](./Screenshot7.png)
 
@@ -554,8 +576,10 @@ Example: ***Amazon S3 object-level API activity***
 - **Insights events**: CloudTrail Insights events capture unusual API call rate or error rate activity in your AWS account.
 Insights events are logged to the destination of your trail.
 <br>
+
 ![](./Screenshot8.png)
 <br>
+
 1. Check **Read** and **Write**
 Choose **S3** as the source of data events to log ->Select **Log All events**
 
@@ -565,16 +589,19 @@ Choose **S3** as the source of data events to log ->Select **Log All events**
 
 ![](./Screenshot10.png)
 <br>
+
 3. Click on **Create Trail**
 
 ![](./Screenshot11.png)
 ![](./Screenshot12.png)
 <br>
+
 4. **Trail has created**
 
 ![](./Screenshot13.png)
 <br>
 <br>
+
 5. Now search for **S3** in search box.
 
 ![](./Screenshot14.png)
@@ -583,10 +610,13 @@ Choose **S3** as the source of data events to log ->Select **Log All events**
 
 ![](./Screenshot15.png)
 <br>
+
 ![](./Screenshot16.png)
 <br>
+
 ![](./Screenshot17.png)
 <br>
+
 7. You can see the **CloudTrail** file here.
 
 ![](./Screenshot18.png)
@@ -598,11 +628,13 @@ Click on it.
 
 ![](./Screenshot19.png).
 <br>
+
 You can see the Log streams of the Log group.
 Click any one of them to see the Log events.
 
 ![](./Screenshot21.png)
 <br>
+
 These are all the recent events performed on the resources.
 
 ![](./Screenshot22.png)
@@ -614,6 +646,7 @@ Event history shows you the last 90 days of management events.
 ![](./Screenshot24.png)
 <br>
 <br>
+
 ## Task 10: Log groups
  Amazon CloudWatch Logs to monitor, store, and access your log files from Amazon Elastic Compute Cloud (Amazon EC2) instances, AWS CloudTrail, Route 53, and other sources.
  - CloudWatch Logs enables you to centralize the logs from all of your systems, applications, and AWS services that you use, in a single, highly scalable service.
@@ -623,6 +656,7 @@ Event history shows you the last 90 days of management events.
 
  **Go to the CloudWatch Console -> Click on log -> Log groups.**
  <br>
+
  Here you can see the previously created events and trails.
  Click on the **reboot event**.
 ![](./Screenshot26.png)
@@ -633,6 +667,7 @@ You can see the streams here. Click any one of it.
 
 ![](./Screenshot27.png)
 <br>
+
 **Log events**: These are all the record of some activity recorded by the application or resource being monitored 
 
 ![](./Screenshot28.png)
@@ -662,4 +697,5 @@ One of the great benefits of using AWS CloudWatch is the availability of the ***
 Each product under CloudWatch has its free tier offering.<br>
 ![](./Screenshot29.png)
 <br>
+
 Congratulations! You have successfully Completed the **Amazon CloudWatch and CloudTrail** lab.
