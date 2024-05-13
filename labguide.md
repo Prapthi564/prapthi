@@ -293,28 +293,29 @@ Composite alarms can send ***Amazon SNS notifications*** when they change state,
 <br>
 
 4. Select ***EC2***
+<br>
 ![](./images/Screenshot_25.png)
 <br>
 
 5. Click on ***Per-Instance Metrics***
+<br>
 ![](./images/Screenshot_26.png)
 <br>
 
 6. Go back to **EC2 Console**, Copy the EC2 **instance Id** of the EC2 instance created in the  start 
+<br>
 ![](./images/Screenshot_28.png)
 <br>
 <br>
 
 7. Paste the instance Id over the Search box in the metrics shown below.
 <br>
-
 ![](./images/Screenshot_27.png)
 <br>
 <br>
 
 8. Scroll down and Select the ***CPUUtilization*** and click on ***Select metric***.
 <br>
-
 ![](./images/Screenshot_29.png)
 <br>
 <br>
