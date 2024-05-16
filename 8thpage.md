@@ -13,11 +13,11 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 
 - For the Task identifier, enter "**MySQL-Aurora**.
 
-- For the Replication instance, choose the Replication instance that you have created in exercise 3.
+- For the Replication instance, choose the **Replication instance** that you have created in exercise 3.
 
-- For the Source database endpoint, choose the source endpoint that you have created in exercise 4.
+- For the Source database endpoint, choose the **source endpoint** that you have created in exercise 4.
 
-- For the Target database endpoint, choose the source endpoint that you have created in exercise 5.
+- For the Target database endpoint, choose the **source endpoint** that you have created in exercise 5.
 
 - For the Migration type, choose the option Migrate existing data from the drop-down menu.
 
@@ -27,7 +27,7 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 
 3. Scroll down to the Task Settings and provide the below values.
 
-- For the editing mode, choose Wizard.
+- For the editing mode, choose **Wizard.**
 
 - For the Target table preparation mode, choose Do nothing.
 
@@ -47,7 +47,7 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 
 - For the schema, choose Enter a schema.
 
-- For the Source name, enter %mydb.
+- For the Source name, enter **%mydb.**
 
 - For other settings, keep everything Defaults.
 
