@@ -1,7 +1,7 @@
 ## Exercise 2: Use MySQL Workbench To Connect To Your Pre-Created RDS (Aurora) Instance.
 In this exercise, you will be connecting your pre-created RDS (Aurora) Instance using the MySQL Workbench Application.
 
-Open the **MySQL Workbench Application** on the LabVM, and on the MySQL Workbench homepage, click on the plus icon to add a new database connection.
+1. Open the **MySQL Workbench Application** on the LabVM, and on the MySQL Workbench homepage, click on the plus icon to add a new database connection.
 
 ![](./screen/Screenshot_16.png)
 
