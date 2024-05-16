@@ -56,7 +56,9 @@ In this exercise, you will be connecting your pre-created RDS (Aurora) Instance 
 <br>
 
 8. In the Query Editor, execute the following query to verify that no data exists in your Aurora instance.
-Select * from mydb.employee;
+   <br>
+   
+**Select * from mydb.employee;**
 
 You should receive a message showing that mydb.employee does not exist.
 
