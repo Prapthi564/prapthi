@@ -15,15 +15,15 @@ In this exercise, you will be creating a source endpoint. An endpoint provides c
 
 ![](./screen/Screenshot_36.png)
 
-- For the Endpoint identifier, enter Source.
+- For the Endpoint identifier, **enter Source.**
 
-- For the Source engine, enter MySQL.
+- For the Source engine, enter **MySQL.**
 
 - For the Access to endpoint database, choose Provide access information manually.
 
 - For the Server name, enter .
 
-- For the Port, enter 3306.
+- For the Port, enter **3306.**
 
 - For the User name, enter .
 
