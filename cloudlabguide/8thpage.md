@@ -62,7 +62,7 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 
 <br>
 
-6. Scroll down and click on Create task.
+6. Scroll down and click on **Create task.**
 
 ![](./screen/Screenshot_48.png)
 
@@ -80,7 +80,7 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 
 <br>
 
-9. In the Query Editor, enter the below query and click on execute.
+9. In the Query Editor, enter the below query and click on **execute.**
     
 **Select * from mydb.employee;**
 
