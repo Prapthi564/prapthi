@@ -11,7 +11,7 @@ In this exercise, you will be creating the endpoint for your Aurora Instance.
 
 2. In the Create endpoint, choose the below values.
 
-For the endpoint type, choose Target endpoint, and click on Select RDS DB instance, and choose Aurora Instance from the drop down menu.
+For the endpoint type, choose Target endpoint, and click on **Select RDS DB instance**, and choose Aurora Instance from the drop down menu.
 
 ![](./screen/Screenshot_40.png)
 
