@@ -3,11 +3,16 @@ In this exercise, you will be connecting your source MySQL Database hosted on th
 
 #####  Follow the below steps to connect to your MySQL Database using the MySQL Workbench Application:
 
-1. Open the **MySQL Workbench Application** on the LabVM, and on the MySQL Workbench homepage, click on the plus icon to add a new database connection.<br>
+1. Open the **MySQL Workbench Application** on the LabVM, and on the MySQL Workbench homepage, click on the plus icon to add a new database connection.
+   
 ![](screen/Screenshot_16.png)
+
 <br>
-![](./screen/Screenshot_2.png)
+
+![](screen/Screenshot_2.png)
+
 <br>
+
 2. Provide the below details in the opened Setup New Connection dialog box:
 
 - For the Connection Name, enter **Source**.
@@ -18,10 +23,14 @@ In this exercise, you will be connecting your source MySQL Database hosted on th
 
 <br>
 
-![](./screen/Screenshot_3.png)
+![](screen/Screenshot_3.png)
+
 <br>
+
 ![](./screen/Screenshot_4.png)
+
 <br>
+
 3. Click on **Test Connection** to verify whether the connection with MySQL is successful and then click **OK**.
 
 ![](./screen/Screenshot_5.png)
