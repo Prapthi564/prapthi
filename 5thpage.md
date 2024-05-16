@@ -9,7 +9,8 @@ In this exercise, you will use the AWS Database Migration Service to migrate you
 
 <br>
 
-2. On the AWS DMS page, open the navigation page on the left click on the Replication Instance (1), and the Create Replication Instance (2).
+2. On the AWS DMS page, open the navigation page on the left click on the **Replication Instance (1)**, and the Create Replication Instance (2).
+   
 <br>
 
 ![](./screen/Screenshot_28.png)
@@ -20,20 +21,20 @@ In this exercise, you will use the AWS Database Migration Service to migrate you
 
 - For the Replication Instance Name, enter **replicationInstance**.
 
-- For the Description, enter replicationInstance.
+- For the Description, enter **replicationInstance.**
 
 ![](./screen/Screenshot_29.png)
 
 <br>
 
-- For the Instance Class, choose dms.t3.micro
+- For the Instance Class, choose **dms.t3.micro**
 
-- For the High Availability, choose Dev or test workload(Single-AZ).
+- For the High Availability, choose **Dev or test workload(Single-AZ).**
 
 ![](./screen/Screenshot_30.png)
 <br>
 
-- For the Storage, enter 30.
+- For the Storage, enter **30.**
 
 ![](./screen/Screenshot_31.png)
 
