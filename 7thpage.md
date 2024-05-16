@@ -21,13 +21,13 @@ For the endpoint type, choose Target endpoint, and click on Select RDS DB instan
 
 - For the Endpoint identifier, select the pre-created Aurora Instance.
 
-- In the Target engine, choose Amazon Aurora MySQL.
+- In the Target engine, choose **Amazon Aurora MySQL.**
 
 - In the Access to endpoint database, choose Provide access information manually.
 
 - For the Server name, choose
 
-- For the Port, enter 3306
+- For the Port, enter **3306**
 
 - For the User name, enter .
 
@@ -39,7 +39,7 @@ For the endpoint type, choose Target endpoint, and click on Select RDS DB instan
 
 4. Scroll down to the Test endpoint connection:
 
-- For the VPC, choose the VPC whose name is like clgVpc.
+- For the VPC, choose the VPC whose name is like **clgVpc.**
 
 - Click on **Run Test**, and if the status is successful, then click on the **Create endpoint**.
 
