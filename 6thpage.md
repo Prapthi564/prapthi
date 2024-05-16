@@ -6,7 +6,9 @@ In this exercise, you will be creating a source endpoint. An endpoint provides c
 1. On the AWS DMS page, open the navigation page on the left, click on the **Endpoints (1)**, and Create **endpoints (2).**
 
 ![](./screen/Screenshot_35.png)
+
 <br>
+
 2.Provide the below values while configuring the endpoint.
 
 - For the endpoint type, choose **Source endpoint**.
@@ -29,6 +31,7 @@ In this exercise, you will be creating a source endpoint. An endpoint provides c
 <br>
 
 ![](./screen/Screenshot_37.png)
+
 <br>
 
 3. Scroll down to the Test endpoint connection:
@@ -38,4 +41,5 @@ In this exercise, you will be creating a source endpoint. An endpoint provides c
 - Click on **Run Test**, and if the status is successful, then click on the **Create endpoint.**
 
 ![](./screen/Screenshot_38.png)
+
 <br>
