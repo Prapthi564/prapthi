@@ -22,7 +22,9 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 - For the Migration type, choose the option Migrate existing data from the drop-down menu.
 
 ![](./screen/Screenshot_44.png)
+
 <br>
+
 3. Scroll down to the Task Settings and provide the below values.
 
 - For the editing mode, choose Wizard.
@@ -34,7 +36,9 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 - For the Data Validation, choose Turn off.
 
 ![](./screen/Screenshot_45.png)
+
 <br>
+
 4. Scroll down to the Table Mappings and provide the below values.
 
 - For the editing mode, choose Wizard.
@@ -48,29 +52,37 @@ An AWS Database Migration Service (AWS DMS) task is where all the work happens. 
 - For other settings, keep everything Defaults.
 
 ![](./screen/Screenshot_46.png)
+
 <br>
 
 5. Scroll down to the Premigration assessment and select disable Turn on premigration assessment.
 
 ![](./screen/Screenshot_47.png)
+
 <br>
 
 6. Scroll down and click on Create task.
 
 ![](./screen/Screenshot_48.png)
+
 <br>
 
 7. Wait for at least 5 minutes, and then verify that the status of the task is Load complete.
 
 ![](./screen/Screenshot_49.png)
+
 <br>
 
 8. Once the task status shows as Load complete, return to the MySQL Workbench and open the existing connection with the name Aurora.
 
 ![](./screen/Screenshot_50.png)
+
 <br>
 
 9. In the Query Editor, enter the below query and click on execute.
 **Select * from mydb.employee;**
+<br>
 
 ![](./screen/Screenshot_51.png)
+
+<br>
