@@ -9,15 +9,27 @@
 
 - Password:
 <br>
-![](./screen/Screenshot_13.png)
+
+![](screen/Screenshot_13.png)
+
 <br>
-![](./screen/Screenshot_1.png)
+
+![](screen/Screenshot_1.png)
+
+
 <br>
+
 Alternatively, you can also find these values on the **CloudLabs** Environment tab.
-![](./screen/Screenshot_14.png)
+
+![](screen/Screenshot_14.png)
+
 <br>
+
 2. After signing in to the AWS Management Console, choose the region US-EAST-1 (N. Virginia) from the drop-down menu.
-![](./screen/Screenshot_15.png)
+      <br>
+   
+![](screen/Screenshot_15.png)
+
 <br>
 
 **Note**: You can deploy the resources in any of the six regions mentioned below:
