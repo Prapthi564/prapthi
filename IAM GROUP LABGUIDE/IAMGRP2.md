@@ -23,11 +23,8 @@ In this lab you will learn about
 
 ### Task 2. Navigating to the Amazon IAM Service
 
-<br>
-
 Step 1: Once you login through the credential, you will directed to the AWS Console page.
 
-<br>
 
 ![](./IAMImages/Screenshot_2.png)
 
@@ -48,6 +45,7 @@ Step 3: You will be directing to the **IAM Dashboard**
 <br>
 
 Step 4: In the Navigation Panel click on **User groups** and the click on **Create group**
+
 <br>
 
 ![](./IAMImages/Screenshot_5.png)
