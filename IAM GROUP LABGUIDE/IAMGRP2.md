@@ -11,8 +11,6 @@ In this lab you will learn about
 
 ### TASK 1: Sign in to the AWS Management Console
 
-<br>
-
 1. Open browser of your choice, search for AWS Management Console and click on https://aws.amazon.com/
 
 2. Sign in using your AWS account credentials.
