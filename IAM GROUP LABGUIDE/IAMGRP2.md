@@ -104,4 +104,5 @@ Step 10: Now click the **User groups** in left panel. You will see the group **d
 
 <br>
 
+<validation step="e9a71575-3a2b-4b53-8529-133f115cec0d" />
 **Congratulations!** You have successfully created the IAM group.
