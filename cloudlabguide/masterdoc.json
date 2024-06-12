@@ -1,0 +1,42 @@
+
+[
+    {
+      "Name": "CloudLabs Demo: AWS environment with Windows machine",
+      "Language": "English",
+      "BaseURL": "https://github.com/Prapthi564/prapthi/tree/main/cloudlabguide",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/1stpage.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/2ndpage.md",
+          "Order": 2
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/3rdpage.md",
+            "Order": 3
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/4thpage.md",
+            "Order": 4
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/5thpage.md",
+            "Order": 5
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/6thpage.md",
+            "Order": 6
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/7thpage.md",
+            "Order": 7
+        },
+        {
+            "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/cloudlabguide/8thpage.md",
+            "Order": 8
+        }
+      ]
+    }
+  ]
