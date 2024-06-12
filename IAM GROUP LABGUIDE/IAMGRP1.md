@@ -24,10 +24,10 @@ You can attach an identity-based policy to a user group so that all of the users
 <br>
 Please answer the following question
 
-<question source="../questions/Page7/question-01.md" />
+<question source="https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/Question1.md" />
   
 <br>
 
 Please answer the following question
 
-<question source="../questions/Page7/question-02.md" />
+<question source="../questions/Page7/question-02.m" />
