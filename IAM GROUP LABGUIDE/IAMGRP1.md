@@ -22,4 +22,12 @@ You can attach an identity-based policy to a user group so that all of the users
 - The number and size of IAM resources in an AWS account, such as the number of groups, and the number of groups that a user can be a member of, are limited. 
 
 <br>
+Please answer the following question
 
+<question source="../questions/Page7/question-01.md" />
+  
+<br>
+
+Please answer the following question
+
+<question source="../questions/Page7/question-02.md" />
