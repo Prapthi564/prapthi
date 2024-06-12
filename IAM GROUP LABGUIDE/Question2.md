@@ -1,6 +1,6 @@
 ## Metadata
 Question Type : Single Choice
-
+ 
 ## Question
 Which of the following is a valid reason to use IAM groups in AWS?:
 
