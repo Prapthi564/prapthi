@@ -12,7 +12,17 @@
         },
         {
           "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/IAMGRP2.md",
-          "Order": 2
+          "Order": 2,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "Questions",
+            "DependentQuestions": [ 
+             "", 
+             "" 
+             ],
+            "UnlockCriteria": "AnsweredCorrectly"
+          }
+        ]
         }
 
       ]
