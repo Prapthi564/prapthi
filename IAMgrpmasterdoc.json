@@ -17,8 +17,8 @@
           {
             "UnlockDependency": "Questions",
             "DependentQuestions": [ 
-             "", 
-             "" 
+             "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/Question1.md", 
+             "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/Question2.md" 
              ],
             "UnlockCriteria": "AnsweredCorrectly"
           }
