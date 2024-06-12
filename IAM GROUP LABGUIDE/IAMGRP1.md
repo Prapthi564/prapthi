@@ -30,4 +30,4 @@ Please answer the following question
 
 Please answer the following question
 
-<question source="../questions/Page7/question-02.m" />
+<question source="https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/Question2.md" />
