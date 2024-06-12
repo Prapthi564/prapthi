@@ -1,1 +1,30 @@
 
+
+ [
+     {
+      "Name": "IAM group creation lab guide",
+      "Language": "English",
+      "BaseURL": "https://github.com/Prapthi564/prapthi/tree/main/IAM%20GROUP%20LABGUIDE",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/IAMGRP1.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/IAMGRP2.md",
+          "Order": 2,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "Questions",
+            "DependentQuestions": [ 
+             "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/Question1.md", 
+             "https://raw.githubusercontent.com/Prapthi564/prapthi/main/IAM%20GROUP%20LABGUIDE/Question2.md" 
+             ],
+            "UnlockCriteria": "AnsweredCorrectly"
+          }
+        ]
+        }
+
+      ]
+    }
+  ]
